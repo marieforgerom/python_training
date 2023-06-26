@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
+# Запуск проверила, работает
+
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest, time, re
+
 
 class TestAddGroup(unittest.TestCase):
     def setUp(self):
@@ -45,6 +48,7 @@ class TestAddGroup(unittest.TestCase):
     
     def tearDown(self):
         self.wd.quit()
+
 
 if __name__ == "__main__":
     unittest.main()
