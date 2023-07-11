@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fcea833-beaf-4972-b67e-c3e1da5637e5" name="Changes" comment="Homework_5. Commit for the __init__.py files" />
+    <list default="true" id="2fcea833-beaf-4972-b67e-c3e1da5637e5" name="Changes" comment="Commit for workspace and other service files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -187,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689062454673</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit for workspace and other service files">
+      <created>1689062539531</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689062539531</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +226,7 @@
     <MESSAGE value="Homework_5. The class for managing session extracted" />
     <MESSAGE value="Homework_5. Commit for the session class file" />
     <MESSAGE value="Homework_5. Commit for the __init__.py files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework_5. Commit for the __init__.py files" />
+    <MESSAGE value="Commit for workspace and other service files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit for workspace and other service files" />
   </component>
 </project>
