@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2fcea833-beaf-4972-b67e-c3e1da5637e5" name="Changes" comment="Homework_5. Commit for the __init__.py files" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RcXDutmJ1Zhe1YxQKn9gIA4LSK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PycharmProjects\python_training\test" />
+      <recent name="C:\PycharmProjects\python_training\model" />
+      <recent name="C:\PycharmProjects\python_training\fixture" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests in test_add_contact.py">
+    <configuration name="Python tests in test_add_contact.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_contact.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_add_group.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/test_add_group.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests in test_add_contact.py" />
+        <item itemvalue="Python tests.Python tests in test_add_group.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2fcea833-beaf-4972-b67e-c3e1da5637e5" name="Changes" comment="" />
+      <created>1687550226893</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687550226893</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Первый тест с ошибкой">
+      <created>1687803530739</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687803530739</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ДЗ_1">
+      <created>1687811916363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687811916363</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Homework_2. Extract methods and create class Group">
+      <created>1687950286216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687950286216</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add contact (without photo)">
+      <created>1687977273336</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687977273336</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Methods extracted">
+      <created>1687984681947</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1687984681947</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Homework_3. Class Contact added and used">
+      <created>1687986193410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687986193410</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Homework_3. A mistake with selectors corrected">
+      <created>1687988220274</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1687988220274</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Homework_4. Change test_add_group to py.test">
+      <created>1688513937600</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688513937600</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Homework_4. Change test_add_group to py.test">
+      <created>1688513948563</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1688513948563</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Homework_4. Change test_add_contact to py.test">
+      <created>1688555482801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688555482801</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Homework_5. Python packages created">
+      <created>1689060014859</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689060014859</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Homework_5. The class for managing session extracted">
+      <created>1689062035692</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1689062035692</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Homework_5. Commit for the session class file">
+      <created>1689062400183</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689062400183</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Homework_5. Commit for the __init__.py files">
+      <created>1689062454673</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689062454673</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Первый тест с ошибкой" />
+    <MESSAGE value="ДЗ_1" />
+    <MESSAGE value="Homework_2. Extract methods and create class Group" />
+    <MESSAGE value="Add contact (without photo)" />
+    <MESSAGE value="Methods extracted" />
+    <MESSAGE value="Homework_3. Class Contact added and used" />
+    <MESSAGE value="Homework_3. A mistake with selectors corrected" />
+    <MESSAGE value="Homework_4. Change test_add_group to py.test" />
+    <MESSAGE value="Homework_4. Change test_add_contact to py.test" />
+    <MESSAGE value="Homework_5. Python packages created" />
+    <MESSAGE value="Homework_5. The class for managing session extracted" />
+    <MESSAGE value="Homework_5. Commit for the session class file" />
+    <MESSAGE value="Homework_5. Commit for the __init__.py files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework_5. Commit for the __init__.py files" />
+  </component>
+</project>
