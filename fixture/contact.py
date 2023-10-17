@@ -9,7 +9,8 @@ class ContactHelper:
     def add_new(self, contact):
         wd = self.app.wd
         # init new contact creation
-        wd.find_element_by_link_text("add new").click()
+        if not (wd.current_url.endswith("/edit.php") and wd.find_element_by_name("submit")):
+            wd.find_element_by_link_text("add new").click()
         self.fill_the_form(contact)
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
         self.home_list()
@@ -113,7 +114,8 @@ class ContactHelper:
 
     def home_list(self):
         wd = self.app.wd
-        wd.find_element_by_link_text("home").click()
+        if not ((wd.current_url.endswith("/index.php") or wd.current_url.endswith("/addressbook/")) and len(wd.find_elements_by_name("selected[]")) > 0):
+            wd.find_element_by_link_text("home").click()
 
     def count(self):
         wd = self.app.wd
