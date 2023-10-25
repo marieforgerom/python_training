@@ -1,3 +1,4 @@
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
 from model.contact import Contact
 
@@ -128,8 +129,9 @@ class ContactHelper:
         self.home_list()
         contacts = []
         for element in wd.find_elements_by_name("entry"):
-            last_name = element.find_element_by_xpath("//td[2]").text
-            first_name = element.find_element_by_xpath("//td[3]").text
+            cells = element.find_elements(By.TAG_NAME, "td")
+            last_name = cells[1].text
+            first_name = cells[2].text
             id = element.find_element_by_name("selected[]").get_attribute("id")
             contacts.append(Contact(firstname=first_name, lastname=last_name, id=id))
         return contacts
