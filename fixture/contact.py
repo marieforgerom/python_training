@@ -16,6 +16,7 @@ class ContactHelper:
         self.fill_the_form(contact)
         wd.find_element_by_xpath("//div[@id='content']/form/input[21]").click()
         self.home_list()
+        self.contact_cache = None
 
     def delete_first_contact(self):
         wd = self.app.wd
@@ -26,6 +27,7 @@ class ContactHelper:
         wd.find_element_by_xpath("//div/input[@onclick='DeleteSel()']").click()
         wd.switch_to.alert.accept()
         self.home_list()
+        self.contact_cache = None
 
     def modify_first_contact(self, contact):
         wd = self.app.wd
@@ -36,6 +38,7 @@ class ContactHelper:
         # submit changes
         wd.find_element_by_name("update").click()
         self.home_list()
+        self.contact_cache = None
 
     def fill_the_form(self, contact):
         wd = self.app.wd
@@ -124,14 +127,17 @@ class ContactHelper:
         self.home_list()
         return len(wd.find_elements_by_name("selected[]"))
 
+    contact_cache = None
+
     def get_contact_list(self):
-        wd = self.app.wd
-        self.home_list()
-        contacts = []
-        for element in wd.find_elements_by_name("entry"):
-            cells = element.find_elements(By.TAG_NAME, "td")
-            last_name = cells[1].text
-            first_name = cells[2].text
-            id = element.find_element_by_name("selected[]").get_attribute("id")
-            contacts.append(Contact(firstname=first_name, lastname=last_name, id=id))
-        return contacts
+        if self.contact_cache is None:
+            wd = self.app.wd
+            self.home_list()
+            self.contact_cache = []
+            for element in wd.find_elements_by_name("entry"):
+                cells = element.find_elements(By.TAG_NAME, "td")
+                last_name = cells[1].text
+                first_name = cells[2].text
+                id = element.find_element_by_name("selected[]").get_attribute("id")
+                self.contact_cache.append(Contact(firstname=first_name, lastname=last_name, id=id))
+        return list(self.contact_cache)
